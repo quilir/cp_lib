@@ -34,17 +34,17 @@ void solve() {
 }
 
 int main() {
-	ios_base::sync_with_stdio(0);
-	cin.tie(0);
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
     
-	#ifndef ONLINE_JUDGE
-	freopen("in","r",stdin);
-	freopen("out","w",stdout);
-	#endif
+    #ifndef ONLINE_JUDGE
+    freopen("in","r",stdin);
+    freopen("out","w",stdout);
+    #endif
 
-	int t;
-	cin >> t;
+    int t;
+    cin >> t;
     rep(_,t) solve();
 
-	return 0;
+    return 0;
 }
